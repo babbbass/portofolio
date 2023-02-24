@@ -1,0 +1,21 @@
+.highlight {
+  color: var(--color-highlight);
+  font-weight: 600;
+}
+
+.contactContainer {
+  margin: 20px 0;
+  font-size: 1.3rem;
+
+}
+
+.contactContainer p {
+  margin-bottom: 24px;
+  color: #ffffffc7;
+}
+
+@media (max-width: 465px){
+  .contactContainer {
+    font-size: 0.9rem;
+  }
+}

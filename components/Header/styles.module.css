@@ -1,0 +1,68 @@
+.container {
+  padding: 58px 0 48px;
+  margin: auto;
+  width: 100%;
+  max-width: 800px;
+}
+
+.name {
+  margin: 20px 0;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.link {
+  color: #000;
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  padding: 8px;
+  font-weight: 550;
+  line-height: 1;
+  font-size: 1rem;
+  width: fit-content; 
+}
+
+.link a::before {
+  content: "→";
+}
+
+.headerStyle {
+  padding: 4px;
+  margin-right: 6px;
+  border-radius: 100%;
+  background: var(--color-highlight);
+  animation: 1s ease 0s infinite normal none running DOvIt;
+}
+
+@keyframes DOvIt {
+  0% {
+    background: var(--color-highlight);
+  }
+
+  50% {
+    background: transparent;
+  }
+
+  100% {
+    background: var(--color-highlight);
+  }
+}
+
+@media(max-width: 465px){
+  
+  .container {
+    padding-left: 20px;
+  }
+  .name{
+    font-size: 1.5rem;
+  }
+  .contact{
+    display: none;
+  }
+  .link {
+    margin: 0;
+  }
+
+}

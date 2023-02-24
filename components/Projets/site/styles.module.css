@@ -1,0 +1,9 @@
+.highlight{
+  color: var(--color-highlight);
+}
+
+.highlight:hover{
+  color: var(--main-color-text);
+  text-decoration: underline;
+}
+
