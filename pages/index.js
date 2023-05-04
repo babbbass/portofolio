@@ -60,6 +60,7 @@ export default function Home() {
               "Styled-Compo.",
               "JavaScript",
               "Jest",
+              "React-Testing-library",
               "Git/GitHub/BitBucket",
               "Redux",
             ]}

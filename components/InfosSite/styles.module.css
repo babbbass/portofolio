@@ -7,3 +7,8 @@
   color: #ffffffc7;
   font-size: 1.2rem;
 }
+
+.technologies {
+  color: var(--color-highlight);
+  font-style: italic;
+}
