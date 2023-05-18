@@ -3,6 +3,7 @@ import styles from "./styles.module.css"
 import { Site as SiteUrl } from "@/components/Projets/site"
 import { Img } from "@/components/Image"
 import { InfosSite } from "@/components/InfosSite"
+import { Button } from "@/components/Projets/button/index"
 import RunEngine from "@/public/images/run-engine.webp"
 import pLeagueAssisters from "@/public/images/pLeagueAssisters.webp"
 import pLeaguePlayer from "@/public/images/pLeaguePlayer.webp"
@@ -25,6 +26,13 @@ export function Projets() {
         <Img src={pLeagueAssisters} alt='Babbbass portofolio' />
         <Img src={pLeaguePlayer} alt='Babbbass portofolio' />
         <Img src={pLeagueSquad} alt='Babbbass portofolio' />
+        <div className={styles.buttonContainer}>
+          <Button
+            text='Code'
+            link='https://github.com/babbbass/Premier-league-next'
+          />
+          <Button text='Site' link='https://premier-league-next.vercel.app/' />
+        </div>
         <InfosSite technologies='Next, TypeScript, React-testing-library' />
       </div>
       <SiteUrl name='Run Engine' link='https://run-engine.vercel.app/' />

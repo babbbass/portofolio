@@ -1,0 +1,12 @@
+.button {
+  padding: 5px;
+  margin-right: 10px ;
+  width: 25%;
+  text-align: center;
+  color: var(--color-hr);
+  font-weight: bold;
+  font-size: 0.9rem;
+  border-radius: 6px;
+  border: var(--color-highlight);
+  background-color: var(--color-highlight);
+}

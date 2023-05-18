@@ -2,6 +2,11 @@
   color: var(--color-highlight);
 }
 
+.highlight::before{
+  content: ".";
+  margin-right: 5px;
+}
+
 .highlight:hover{
   color: var(--main-color-text);
   text-decoration: underline;
